@@ -4,12 +4,21 @@
 to the problem
 🟡 Coding problems
 - Maximum Subarray ✅
+- Minimum Size Subarray Sum ✅
+- Longest Substring with At Most K Distinct Characters
 🟡 Resources
 
 
 🟢 To-do list
 - learn each pattern and like do 2 problems from that pattern
 - then finish your DSA and just think about which pattern is in each
+
+🟢 Thoughts
+- should i just do brute force first? helped on #2
+- i realy think its important for me to not look at solutions without AT LEAST figuring out the brute force
+- don't just use for loops....use while loops
+- redo minimum size subarray sum with binary search
+
 
 🟢 Info 
 🟡 Sliding Window Pattern
@@ -37,7 +46,7 @@ to the problem
     - also work based on bracket access like let. it is also hoisted like let
     - the behavior is different when it comes to objects made with const
     - the properties of a const object can be updated
-
+🟡 in leetcode, contiguous just means in the same direction
 
 
 
