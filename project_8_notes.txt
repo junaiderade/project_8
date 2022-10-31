@@ -1,0 +1,61 @@
+🟢 Sliding Window Pattern
+🟡 Definition
+- Sliding windows start from the first element and keep shifting right by one element and adjust the length of the window according
+to the problem
+🟡 Coding problems
+- Maximum Subarray ✅
+🟡 Resources
+
+
+🟢 To-do list
+- learn each pattern and like do 2 problems from that pattern
+- then finish your DSA and just think about which pattern is in each
+
+🟢 Info 
+🟡 Sliding Window Pattern
+- Sliding windows start from the first elemtn and keep shifting right by one element and adjust the length of the window according
+to the problem
+- in some problems the window remains cosntant and in some it grows and shrinks
+- usually longest/shortest substring, substring, or desired value are common problems
+🟡 Difference between sliding window and 2 pointers
+- Sliding window algorithms can be implemented with a single pointer and a variable for window size. Typically we use all of the elements within the window for the problem (for eg - sum of all elements in the window).
+- Two pointer technique is quite similar but we usually compare the value at the two pointers instead of all the elements between the pointers.
+- Two pointers can also have variations like fast-slow pointer.
+🟡 let vs var vs const 
+- var is globally scoped (on a whole window of code when not in a function)
+    - when declared inside a function it is locally scoped
+    - var variables can be re-declared and updated. This is a problem when you forget that you already declared a variable
+    - var is hoisted to the top of your code and initialized as undefined (unless a value is asigned).
+    Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+- let is scoped within whatever brackets it is in {}
+    - it is the preffered variable declaration
+    - can be updated, but not re-declared
+    - Just like  var, let declarations are hoisted to the top. Unlike var which is initialized as undefined, 
+    the let keyword is not initialized. So if you try to use a let variable before declaration, you'll get a Reference Error.
+- Variables declared with the const maintain constant values
+    - const cannot be updated or redeclared
+    - also work based on bracket access like let. it is also hoisted like let
+    - the behavior is different when it comes to objects made with const
+    - the properties of a const object can be updated
+
+
+
+
+
+🟢 How to
+
+🟢 Questions
+
+🟢 Resources
+🟡 Nice Article
+https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
+🟡 Grokking the coding interview patterns
+https://www.educative.io/courses/grokking-the-coding-interview
+🟡 Grokking Github (incase site ever becomes paid)
+https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions
+🟡 Grokking to Leetcode
+https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4
+
+🟢 Terminal
+
+🟢 Issues
