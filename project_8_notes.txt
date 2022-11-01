@@ -5,7 +5,7 @@ to the problem
 🟡 Coding problems
 - Maximum Subarray ✅
 - Minimum Size Subarray Sum ✅
-- Longest Substring with At Most K Distinct Characters
+- Longest Substring with At Most K Distinct Characters ✅
 🟡 Resources
 
 
@@ -18,7 +18,11 @@ to the problem
 - i realy think its important for me to not look at solutions without AT LEAST figuring out the brute force
 - don't just use for loops....use while loops
 - redo minimum size subarray sum with binary search
-
+- maybe its smart to use graph paper with coding problems
+- THE DEBUGGER IN LEETCODE IS SO HELPFUL OMG
+- is the map in js an ordered dictionary
+- i think as long as you are doing 1-2 coding problems daily u r good
+- a really big part of being good at these questions is coming up with good test cases
 
 🟢 Info 
 🟡 Sliding Window Pattern
