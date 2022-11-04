@@ -2,12 +2,39 @@
 🟡 Definition
 - Sliding windows start from the first element and keep shifting right by one element and adjust the length of the window according
 to the problem
+- in some problems the window remains cosntant and in some it grows and shrinks
+- usually longest/shortest substring, substring, or desired value are common problems
 🟡 Coding problems
-- Maximum Subarray ✅
-- Minimum Size Subarray Sum ✅
-- Longest Substring with At Most K Distinct Characters ✅
+- Maximum Subarray ✅ 2/10
+- Minimum Size Subarray Sum ✅ 9/10
+- Longest Substring with At Most K Distinct Characters ✅ 7/10
 🟡 Resources
 
+🟢 Two Pointers Pattern
+🟡 Definitions
+- As the name suggests, the two pointers pattern uses two pointers to iterate over an array or list until the conditions of the problem are satisfied. 
+This is useful because it allows us to keep track of the values of two different indexes in a single iteration. Whenever there’s a requirement to find 
+two data elements in an array that satisfy a certain condition, the two pointers pattern should be the first strategy to come to mind.
+- The pointers can be used to iterate the data structure in one or both directions, depending on the problem statement. For example, to identify whether a string is a palindrome, we can use one pointer to iterate the string from the beginning and the other to iterate it from the end.
+🟡 Coding problems
+- Remove Duplicates from Sorted Array ✅
+- Squares of a Sorted Array ✅
+- 3sum ✅
+- Two sum II
+
+🟢 Fast and Slow Pointers pattern
+🟡 Definition
+- uses two pointers to traverse an iterable data structure at different speeds. It’s usually used to identify 
+distinguishable features of directional data structures, such as a linked list or an array.
+- Generally, the slow pointer moves forward by a factor of one, and the fast pointer moves by a factor of two in each step. However, the speed can be adjusted according to the problem statement.
+- Unlike the two pointers approach, which is concerned with data values, the fast and slow pointers approach is used to determine data structure traits using indices in arrays or node pointers in linked lists. The approach is commonly 
+used to detect cycles in the given data structure, so it’s also known as Floyd’s cycle detection algorithm.
+- To understand the concept, think of two runners on a track. While they start from the same point, they have different running speeds. 
+If the race track is a circle, the faster runner will overtake the slower one after completing a lap. On the other hand, if the track is straight, the faster runner will end the race before the slower one, hence never meeting on the track again.
+- only works on data that can be traversed in a linear fasion
+🟡 Coding problems
+- Linked List Cycle
+--------------------------------------------------------------------------------------
 
 🟢 To-do list
 - learn each pattern and like do 2 problems from that pattern
@@ -23,17 +50,15 @@ to the problem
 - is the map in js an ordered dictionary
 - i think as long as you are doing 1-2 coding problems daily u r good
 - a really big part of being good at these questions is coming up with good test cases
+- you can straight up just google the grokking introductions
 
 🟢 Info 
-🟡 Sliding Window Pattern
-- Sliding windows start from the first elemtn and keep shifting right by one element and adjust the length of the window according
-to the problem
-- in some problems the window remains cosntant and in some it grows and shrinks
-- usually longest/shortest substring, substring, or desired value are common problems
 🟡 Difference between sliding window and 2 pointers
+- sliding window uses an aggregate of everything in window usually
 - Sliding window algorithms can be implemented with a single pointer and a variable for window size. Typically we use all of the elements within the window for the problem (for eg - sum of all elements in the window).
 - Two pointer technique is quite similar but we usually compare the value at the two pointers instead of all the elements between the pointers.
 - Two pointers can also have variations like fast-slow pointer.
+- They are vary similar but in sliding window u keep track of something like a sum
 🟡 let vs var vs const 
 - var is globally scoped (on a whole window of code when not in a function)
     - when declared inside a function it is locally scoped
@@ -68,6 +93,8 @@ https://www.educative.io/courses/grokking-the-coding-interview
 https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions
 🟡 Grokking to Leetcode
 https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4
+🟡 For some reason, this one has the intros
+https://www.educative.io/courses/grokking-coding-interview-patterns-cpp/YV0pQ4Gw4w0
 
 🟢 Terminal
 
