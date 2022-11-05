@@ -33,7 +33,8 @@ used to detect cycles in the given data structure, so it’s also known as Floyd
 If the race track is a circle, the faster runner will overtake the slower one after completing a lap. On the other hand, if the track is straight, the faster runner will end the race before the slower one, hence never meeting on the track again.
 - only works on data that can be traversed in a linear fasion
 🟡 Coding problems
-- Linked List Cycle
+- Linked List Cycle ✅
+- Linked List Cycle || ( Return Node where cycle begins)
 --------------------------------------------------------------------------------------
 
 🟢 To-do list

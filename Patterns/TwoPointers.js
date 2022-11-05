@@ -59,6 +59,7 @@ var sortedSquares = function(nums) {//5/10 | O(n) and O(n) | key with this probl
 
 var threeSum = function(nums) { //8/10 | O(n^2) & O(logn) to O(n) depending on sorting algo | basically you are going thru the array and doing two sum II on rest of the array
     //technically you are using THREE pointers
+    //when i did this before the solution,I also got an O(n) solution but it was not as space friendly. I used a hashmap to keep track of values to left and i used a for loop to keep track of values at right
     nums.sort((a,b) => a-b);
     let res = [];
     
