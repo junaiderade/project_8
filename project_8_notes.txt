@@ -1,4 +1,4 @@
-🟢 Sliding Window Pattern
+1 🟢 Sliding Window Pattern
 🟡 Definition
 - Sliding windows start from the first element and keep shifting right by one element and adjust the length of the window according
 to the problem
@@ -10,7 +10,7 @@ to the problem
 - Longest Substring with At Most K Distinct Characters ✅ 7/10
 🟡 Resources
 
-🟢 Two Pointers Pattern
+2 🟢 Two Pointers Pattern
 🟡 Definitions
 - As the name suggests, the two pointers pattern uses two pointers to iterate over an array or list until the conditions of the problem are satisfied. 
 This is useful because it allows us to keep track of the values of two different indexes in a single iteration. Whenever there’s a requirement to find 
@@ -22,7 +22,7 @@ two data elements in an array that satisfy a certain condition, the two pointers
 - 3sum ✅
 - Two sum II
 
-🟢 Fast and Slow Pointers pattern
+3 🟢 Fast and Slow Pointers pattern
 🟡 Definition
 - uses two pointers to traverse an iterable data structure at different speeds. It’s usually used to identify 
 distinguishable features of directional data structures, such as a linked list or an array.
@@ -35,7 +35,16 @@ If the race track is a circle, the faster runner will overtake the slower one af
 🟡 Coding problems
 - Linked List Cycle ✅
 - Linked List Cycle II ✅ ( Return Node where cycle begins)
-- Happy Number 
+- Happy Number ✅
+
+4 🟢 Merge Intervals
+🟡 Definition
+- an interval is (usually) an interval of time, represented by a start and an end. ex: [1,10]
+- an example problem would be to merge below intervals
+Input: [[1,3],[5,10],[7,15],[18,30],[22,25]]
+Output: [[1,3],[5,15],[18,30]]
+🟡 Coding Problems
+- Merge Intervals
 --------------------------------------------------------------------------------------
 
 🟢 To-do list
@@ -98,6 +107,10 @@ https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Ques
 https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4
 🟡 For some reason, this one has the intros
 https://www.educative.io/courses/grokking-coding-interview-patterns-cpp/YV0pQ4Gw4w0
+🟡 Merge Intervals Pattern
+https://emre.me/coding-patterns/merge-intervals/
+https://medium.com/@timpark0807/leetcode-is-easy-the-interval-pattern-d68a7c1c841
+https://www.techinterviewhandbook.org/algorithms/interval/
 
 🟢 Terminal
 

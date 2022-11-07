@@ -69,7 +69,8 @@ now if you think about the formula it all makes sense
 var isHappy = function(n) { /* 4/10 | O(log(n)) and O(1)
 
 - use tortoise and hare to detect cycle. you can also do this with hashset
-- tc is O(log(n)) because the max number you can 
+- O(log N), log N has base 10. So, the time complexity is dependent on the number of digits in the number.
+- look into this more
 */
     
     function transform (num){
