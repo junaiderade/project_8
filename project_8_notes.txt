@@ -34,7 +34,8 @@ If the race track is a circle, the faster runner will overtake the slower one af
 - only works on data that can be traversed in a linear fasion
 🟡 Coding problems
 - Linked List Cycle ✅
-- Linked List Cycle || ( Return Node where cycle begins)
+- Linked List Cycle II ✅ ( Return Node where cycle begins)
+- Happy Number 
 --------------------------------------------------------------------------------------
 
 🟢 To-do list
@@ -82,6 +83,7 @@ If the race track is a circle, the faster runner will overtake the slower one af
 
 
 🟢 How to
+🟡 convert a string to a number use parse int
 
 🟢 Questions
 
