@@ -5,9 +5,9 @@ to the problem
 - in some problems the window remains cosntant and in some it grows and shrinks
 - usually longest/shortest substring, substring, or desired value are common problems
 🟡 Coding problems
-- Maximum Subarray ✅ 2/10
-- Minimum Size Subarray Sum ✅ 9/10
-- Longest Substring with At Most K Distinct Characters ✅ 7/10
+- Maximum Subarray ✅ M
+- Minimum Size Subarray Sum ✅ M
+- Longest Substring with At Most K Distinct Characters ✅ M
 🟡 Resources
 
 2 🟢 Two Pointers Pattern
@@ -17,9 +17,9 @@ This is useful because it allows us to keep track of the values of two different
 two data elements in an array that satisfy a certain condition, the two pointers pattern should be the first strategy to come to mind.
 - The pointers can be used to iterate the data structure in one or both directions, depending on the problem statement. For example, to identify whether a string is a palindrome, we can use one pointer to iterate the string from the beginning and the other to iterate it from the end.
 🟡 Coding problems
-- Remove Duplicates from Sorted Array ✅
-- Squares of a Sorted Array ✅
-- 3sum ✅
+- Remove Duplicates from Sorted Array ✅ 3/10
+- Squares of a Sorted Array ✅ 5/10
+- 3sum ✅ M 8/10
 - Two sum II
 
 3 🟢 Fast and Slow Pointers pattern
@@ -33,9 +33,9 @@ used to detect cycles in the given data structure, so it’s also known as Floyd
 If the race track is a circle, the faster runner will overtake the slower one after completing a lap. On the other hand, if the track is straight, the faster runner will end the race before the slower one, hence never meeting on the track again.
 - only works on data that can be traversed in a linear fasion
 🟡 Coding problems
-- Linked List Cycle ✅
-- Linked List Cycle II ✅ ( Return Node where cycle begins)
-- Happy Number ✅
+- Linked List Cycle ✅ E
+- Linked List Cycle II ✅ M( Return Node where cycle begins)
+- Happy Number ✅ E
 
 4 🟢 Merge Intervals
 🟡 Definition
@@ -44,7 +44,17 @@ If the race track is a circle, the faster runner will overtake the slower one af
 Input: [[1,3],[5,10],[7,15],[18,30],[22,25]]
 Output: [[1,3],[5,15],[18,30]]
 🟡 Coding Problems
-- Merge Intervals
+- Merge Intervals ✅ M
+- Insert Intervals ✅ M
+- Employee Free Time ✅ H
+
+5 🟢 In place Reversal of a Linked List
+🟡 Definition
+- This technique describes an efficient way to reverse the links between a set of nodes of a LinkedList. 
+Often, the constraint is that we need to do this in-place, i.e., using the existing node objects and without using extra memory.
+🟡 Coding Problems
+- Reverse Linked List ✅ E 1/10
+
 --------------------------------------------------------------------------------------
 
 🟢 To-do list
@@ -62,6 +72,7 @@ Output: [[1,3],[5,15],[18,30]]
 - i think as long as you are doing 1-2 coding problems daily u r good
 - a really big part of being good at these questions is coming up with good test cases
 - you can straight up just google the grokking introductions
+- you don't need to indicate dates and stuff in here cuz u can just go to ur leetcode account for thats
 
 🟢 Info 
 🟡 Difference between sliding window and 2 pointers
@@ -111,6 +122,9 @@ https://www.educative.io/courses/grokking-coding-interview-patterns-cpp/YV0pQ4Gw
 https://emre.me/coding-patterns/merge-intervals/
 https://medium.com/@timpark0807/leetcode-is-easy-the-interval-pattern-d68a7c1c841
 https://www.techinterviewhandbook.org/algorithms/interval/
+🟡 Pretty good grokking intros
+https://designgurus.org/blog/grokking-leetcode
+
 
 🟢 Terminal
 

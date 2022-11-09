@@ -1,5 +1,5 @@
 //if you can't rederive something on the spot you don't know it
-var removeDuplicates = function(nums) {//3/10 | O(n) and O(1)
+var removeDuplicates = function(nums) {// O(n) and O(1)
     let start = 0;
     let end = 0;
     while(end < nums.length){
@@ -15,7 +15,7 @@ var removeDuplicates = function(nums) {//3/10 | O(n) and O(1)
     return start+1;
 };
 
-var sortedSquares = function(nums) {//5/10 | O(n) and O(n) | key with this problem is getting to the 
+var sortedSquares = function(nums) {// O(n) and O(n) | key with this problem is getting to the 
     //lowest number and then going outwards in both directions. Helped to come back a day later with fresh mind. 
     //Need to trust myself. The first time I tried this problem I was right but didn't trust my gut.
     let pos_lowest = 0
@@ -57,7 +57,7 @@ var sortedSquares = function(nums) {//5/10 | O(n) and O(n) | key with this probl
     
 };
 
-var threeSum = function(nums) { //8/10 | O(n^2) & O(logn) to O(n) depending on sorting algo | basically you are going thru the array and doing two sum II on rest of the array
+var threeSum = function(nums) { //O(n^2) & O(logn) to O(n) depending on sorting algo | basically you are going thru the array and doing two sum II on rest of the array
     //technically you are using THREE pointers
     //when i did this before the solution,I also got an O(n) solution but it was not as space friendly. I used a hashmap to keep track of values to left and i used a for loop to keep track of values at right
     nums.sort((a,b) => a-b);
