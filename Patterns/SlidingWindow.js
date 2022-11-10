@@ -1,4 +1,4 @@
-var maxSubArray = function(nums) { //2/10 | O(n) and O(1)
+var maxSubArray = function(nums) { // O(n) and O(1)
     let global_max = nums[0];
     let local_max = nums[0];
     
@@ -10,7 +10,7 @@ var maxSubArray = function(nums) { //2/10 | O(n) and O(1)
     return global_max;
 };
 
-var minSubArrayLen = function(s, nums) { //8/10 | O(n) and O(1) | 
+var minSubArrayLen = function(s, nums) { // O(n) and O(1) | 
     //each number is visited only twice. Did not start off with brute force
     let start = 0;
     let end = 0;
@@ -37,7 +37,7 @@ var minSubArrayLen = function(s, nums) { //8/10 | O(n) and O(1) |
     return 0;
 };
 
-var lengthOfLongestSubstringKDistinct = function(s, k) {//7/10 | O(n) and O(n) | 
+var lengthOfLongestSubstringKDistinct = function(s, k) {// O(n) and O(n) | 
     //this is a sliding window + hashmap problem. Used excel to track inputs and outputs.
     
     if(k == 0 || s.length == 0){//make sure inputs are valid

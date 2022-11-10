@@ -1,6 +1,6 @@
 //if you can't rederive something on the spot you don't know it
 
-var hasCycle = function(head) { // 1/10 | O(n) and O(1)
+var hasCycle = function(head) { // O(n) and O(1)
     slow = head;
     fast = head;
     while(fast && fast.next){
@@ -13,7 +13,7 @@ var hasCycle = function(head) { // 1/10 | O(n) and O(1)
     return false;
 };
 
-var detectCyclehead = function(head) { /* 9/10 | O(n) and O(1) |
+var detectCyclehead = function(head) { /* O(n) and O(1) |
 the challenge with this problem is that you should use O(1) space and not modify the list.
 Also this IS a math problem! Implementation is simple but understanding why is hard
 - L1 is defined as the distance between the head point and entry point
@@ -66,7 +66,7 @@ now if you think about the formula it all makes sense
     
 };
 
-var isHappy = function(n) { /* 4/10 | O(log(n)) and O(1)
+var isHappy = function(n) { /* O(log(n)) and O(1)
 
 - use tortoise and hare to detect cycle. you can also do this with hashset
 - O(log N), log N has base 10. So, the time complexity is dependent on the number of digits in the number.
