@@ -1,0 +1,77 @@
+1 🟢 Sliding Window Pattern
+🟡 Definition
+- Sliding windows start from the first element and keep shifting right by one element and adjust the length of the window according
+to the problem
+- in some problems the window remains cosntant and in some it grows and shrinks
+- usually longest/shortest substring, substring, or desired value are common problems
+🟡 Coding problems
+- Maximum Subarray ✅ M 2/10
+- Minimum Size Subarray Sum ✅ M 8/10
+- Longest Substring with At Most K Distinct Characters ✅ M 7/10
+🟡 Resources
+
+2 🟢 Two Pointers Pattern
+🟡 Definitions
+- As the name suggests, the two pointers pattern uses two pointers to iterate over an array or list until the conditions of the problem are satisfied. 
+This is useful because it allows us to keep track of the values of two different indexes in a single iteration. Whenever there’s a requirement to find 
+two data elements in an array that satisfy a certain condition, the two pointers pattern should be the first strategy to come to mind.
+- The pointers can be used to iterate the data structure in one or both directions, depending on the problem statement. For example, to identify whether a string is a palindrome, we can use one pointer to iterate the string from the beginning and the other to iterate it from the end.
+🟡 Coding problems
+- Remove Duplicates from Sorted Array ✅ 3/10
+- Squares of a Sorted Array ✅ 5/10
+- 3sum ✅ M 8/10
+- Two sum II
+
+3 🟢 Fast and Slow Pointers pattern
+🟡 Definition
+- uses two pointers to traverse an iterable data structure at different speeds. It’s usually used to identify 
+distinguishable features of directional data structures, such as a linked list or an array.
+- Generally, the slow pointer moves forward by a factor of one, and the fast pointer moves by a factor of two in each step. However, the speed can be adjusted according to the problem statement.
+- Unlike the two pointers approach, which is concerned with data values, the fast and slow pointers approach is used to determine data structure traits using indices in arrays or node pointers in linked lists. The approach is commonly 
+used to detect cycles in the given data structure, so it’s also known as Floyd’s cycle detection algorithm.
+- To understand the concept, think of two runners on a track. While they start from the same point, they have different running speeds. 
+If the race track is a circle, the faster runner will overtake the slower one after completing a lap. On the other hand, if the track is straight, the faster runner will end the race before the slower one, hence never meeting on the track again.
+- only works on data that can be traversed in a linear fasion
+🟡 Coding problems
+- Linked List Cycle ✅ E 1/10
+- Linked List Cycle II ✅ M 9/10
+- Happy Number ✅ E 4.10
+
+4 🟢 Merge Intervals
+🟡 Definition
+- an interval is (usually) an interval of time, represented by a start and an end. ex: [1,10]
+- an example problem would be to merge below intervals
+Input: [[1,3],[5,10],[7,15],[18,30],[22,25]]
+Output: [[1,3],[5,15],[18,30]]
+🟡 Coding Problems
+- Merge Intervals ✅ M 2/10
+- Insert Intervals ✅ M 3/10
+- Employee Free Time ✅ H 6/10
+
+5 🟢 In place Reversal of a Linked List
+🟡 Definition
+- This technique describes an efficient way to reverse the links between a set of nodes of a LinkedList. 
+Often, the constraint is that we need to do this in-place, i.e., using the existing node objects and without using extra memory.
+🟡 Coding Problems
+- Reverse Linked List ✅ E 1/10
+- Reverse Linked List II ✅ M 9/10
+- Reverse Nodes in k-Group ✅ 7/10
+
+6 🟢 Two Heaps
+🟡 Definition
+As the name suggests, the two heaps pattern uses either two min-heaps, two max-heaps, or a min-heap and a max-heap simultaneously to solve the problem.
+A min-heap is used to find the smallest element of a set of data, and a max-heap is used to find the largest element. Both heaps take O(\log k)
+O(logk)time to insert an element, O(\log k), O(logk)time to pop an element, and give O(1). O(1) time access to the smallest or largest element.
+In some problems, we’re given a set of data such that it can be divided into two parts. We can either use the first part to find the smallest element 
+using the min-heap and the second part to find the largest element using the max-heap, or we can do the reverse and use the first part to find the largest 
+element using the max-heap and the second part to find the smallest element using the min-heap.There might be cases where we need to find the two largest 
+numbers from two different data sets. We’ll use two max-heaps to store two different data sets in that case. In other cases, we might need to find the two 
+smallest numbers from two different data sets, and then we would use two min-heaps.
+🟡 Conditions
+Yes, if both of these conditions are fulfilled:
+    We need to repeatedly calculate two maxima, two minima, or one maximum and one minimum, based on a changing set of data.
+    The input data is not sorted.
+No, if any of these conditions are fulfilled:
+    We don’t need to track two extreme values (minima or maxima), but only one.
+    When we don’t need to repeatedly calculate the extreme values (minima or maxima), but only need to calculate it a fixed number of times.
+    The input data is already sorted—in which case, there is no benefit to using heaps.

@@ -1,0 +1,3 @@
+🟢 Resources
+🟡 Heaps
+https://favtutor.com/blogs/heap-in-python
