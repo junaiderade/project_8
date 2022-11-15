@@ -20,6 +20,8 @@
 - you can straight up just google the grokking introductions
 - you don't need to indicate dates and stuff in here cuz u can just go to ur leetcode account for thats
 - you have to remember that its just an interview lol 
+- why is a heap's time complexity O(logn) and not O(nlogn)
+- i think it might be a good idea to just use colt steel's implementations but converted to python
 
 🟢 Info 
 🟡 Difference between sliding window and 2 pointers
@@ -73,6 +75,10 @@ https://www.techinterviewhandbook.org/algorithms/interval/
 https://designgurus.org/blog/grokking-leetcode
 🟡 What to do when interviewer asks heap question
 https://dandkim.com/js-heap-implementation/
+🟡 Python Dictionary Docs 
+https://www.programiz.com/python-programming/dictionary
+🟡 Great article on why heaps don't look correct when printed
+https://stackoverflow.com/questions/62406431/why-does-pythons-heapqs-tuple-comparison-not-work-as-it-supposed-to
 
 
 

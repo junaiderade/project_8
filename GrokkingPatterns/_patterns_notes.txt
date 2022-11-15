@@ -75,3 +75,5 @@ No, if any of these conditions are fulfilled:
     We don’t need to track two extreme values (minima or maxima), but only one.
     When we don’t need to repeatedly calculate the extreme values (minima or maxima), but only need to calculate it a fixed number of times.
     The input data is already sorted—in which case, there is no benefit to using heaps.
+🟡 Coding Problems
+- Find Right Interval ✅ 9/10

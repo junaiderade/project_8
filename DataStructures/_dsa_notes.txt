@@ -1,3 +1,5 @@
 🟢 Resources
 🟡 Heaps
 https://favtutor.com/blogs/heap-in-python
+🟡 Heap Implementation
+https://www.educative.io/answers/heap-implementation-in-python
