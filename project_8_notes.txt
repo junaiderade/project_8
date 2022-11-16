@@ -22,6 +22,7 @@
 - you have to remember that its just an interview lol 
 - why is a heap's time complexity O(logn) and not O(nlogn)
 - i think it might be a good idea to just use colt steel's implementations but converted to python
+- does a heap 
 
 🟢 Info 
 🟡 Difference between sliding window and 2 pointers
@@ -77,9 +78,9 @@ https://designgurus.org/blog/grokking-leetcode
 https://dandkim.com/js-heap-implementation/
 🟡 Python Dictionary Docs 
 https://www.programiz.com/python-programming/dictionary
-🟡 Great article on why heaps don't look correct when printed
+🟡 Great articles on why heaps don't look correct when printed
 https://stackoverflow.com/questions/62406431/why-does-pythons-heapqs-tuple-comparison-not-work-as-it-supposed-to
-
+https://stackoverflow.com/questions/36479149/how-is-the-order-of-items-managed-by-pythons-heapq-library-determined
 
 
 🟢 Terminal

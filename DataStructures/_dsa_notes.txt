@@ -1,5 +1,14 @@
+🟢 Concepts
+🟡 Formula for serializing binary tree
+- for each parent, their child will be located at the index 
+    - parent index * 2 + 1 or + 2
+
+
 🟢 Resources
 🟡 Heaps
 https://favtutor.com/blogs/heap-in-python
 🟡 Heap Implementation
 https://www.educative.io/answers/heap-implementation-in-python
+
+🟢 Thoughts
+- okay so is or isnt the array sorted when doing heapq stuff

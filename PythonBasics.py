@@ -33,4 +33,8 @@ print("The popped and smallest element is : ", heapq.heappop(li))
 
 #the built in heap is a minHeap, to do a maxHeap, invert the values of the keys
 
-# A heap is not the same thing as a sorted list. A heap only guarantees that an element is not greater than the values of its children.
+# A heapq is not the same thing as a sorted list. A heap only guarantees that an element is not greater than the values of its children.
+# the only thing really consistent about a heap is that heap[0] is the smallest element. Otherwise, you can think of the array like a
+# deserialized tree
+
+# the pass statement in python is used for future code
