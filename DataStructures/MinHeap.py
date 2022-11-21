@@ -32,6 +32,7 @@ class MinHeap:
         idx = 0
         length = len(self.vals)
         element = self.vals[0]
+        leftChild, rightChild = None,None
         while True:
             leftChildIdx = 2 * idx + 1
             rightChildIdx = 2 * idx + 2
@@ -42,8 +43,8 @@ class MinHeap:
                     swap = leftChildIdx
             if rightChildIdx < length:
                 rightChild = self.values[rightChildIdx]
-                if not swap and rightChild.priority < element.priority:
-                    rightChildIdx = self.vals[rightChildIdx]
+                if (swap is None and rightChild.priority < element.priority) or (not swap is None and rightChild.priority < leftChild.priority):
+                    pass
 
     def printQueue(self):
         for x in self.vals:
